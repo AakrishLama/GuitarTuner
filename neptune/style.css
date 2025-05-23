@@ -1,0 +1,51 @@
+html, body {
+  background: #5A7C5B;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+h1{
+  color:white;
+  padding:10px;
+  margin: 100,10px;
+  font-size: 2em;
+  text-align: center;
+}
+#img{
+    width: 10px;  /* Set the width to a specific size */
+    height: 10px; /* Set the height to a specific size */
+    object-fit: cover; /* Optional: ensures the image covers the specified dimensions without distortion */
+    border: 2px solid #ddd; /* Optional border */
+    border-radius: 10px;   /* Optional border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.stringsContainer{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+.btn{
+  padding: 20px;
+  cursor: pointer;
+}
+.dropdown button{
+  background-color: grey;
+  cursor: pointer;
+}
+.dropdown .toptions{
+  position: absolute;
+  display: none;
+}
+.toptions button{
+  background-color: rgb(134,134,201);
+  display: block;
+  padding: 20px;
+  width: 116px;
+}
+.dropdown:hover .toptions{
+  display: block;
+}
+
